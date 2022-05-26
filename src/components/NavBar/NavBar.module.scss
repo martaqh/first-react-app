@@ -1,0 +1,41 @@
+@import '../../styles/settings.scss';
+
+.navbar {
+    background-color: darken($color-dark, 3%);
+
+    a {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.nav__menu {
+    width: 30%;
+    ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    }
+}
+
+.nav__icon {
+ 
+    font-size: 24px;
+    position: relative;
+
+    i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+}
