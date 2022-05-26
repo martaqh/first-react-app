@@ -9,11 +9,10 @@ const SearchForm = props => {
     const [searchString, setSearchString] = useState('');
     const dispatch = useDispatch();
 
-   // const searchInput = 
     const handleSubmit = e => {
         e.preventDefault();
         console.log('handle submit', e.target);
-        dispatch(updateSearchstring({searchString}));
+        dispatch(updateSearchstring(searchString));
     }
 
     const handleChange = e => {
