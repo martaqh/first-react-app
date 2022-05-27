@@ -13,13 +13,13 @@ const NavBar = () => {
             <div className={styles.nav__menu}>
             <ul>
                 <li>
-                <a href="/Home">Home</a>
+                <a href="/">Home</a>
                 </li>
                 <li>
                 <a href="/About">About</a>
                 </li>
                 <li>
-                <a href="/Favorites">Favorites</a>
+                <a href="/Favorite">Favorite</a>
                 </li>  
             </ul>
             </div>
