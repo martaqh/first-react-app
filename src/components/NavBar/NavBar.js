@@ -1,7 +1,6 @@
 import styles from './NavBar.module.scss';
 import Container from '../Container/Container';
-import { Link, NavLink } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -31,11 +30,8 @@ const NavBar = () => {
               </ul>
             </div>
           </div>
-          
-          
         </Container>
-      </nav>
-            
+      </nav>  
     )
 }
 

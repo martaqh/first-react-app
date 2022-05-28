@@ -1,10 +1,10 @@
 import styles from './List.module.scss';
+import { useSelector } from 'react-redux';
+import { Navigate, useParams } from 'react-router';
+import { getListById, getColumnsById } from '../../redux/store';
 import Column from '../Column/Column';
 import ColumnForm from '../ColumnForm/ColumnForm';
 import SearchForm from '../SearchForm/SearchForm';
-import { useSelector } from 'react-redux';
-import { getListById, getColumnsById } from '../../redux/store';
-import { Navigate, useParams } from 'react-router';
 
 
 

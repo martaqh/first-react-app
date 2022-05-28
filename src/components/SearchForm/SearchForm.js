@@ -1,9 +1,10 @@
-import { useDispatch } from 'react-redux';
+import styles from './SearchForm.module.scss';
 import { useState } from 'react';
-import styles from './SearchForm.module.scss'
+import { useDispatch } from 'react-redux';
+import { updateSearchstring } from '../../redux/store';
 import TextInput from '../TextInput/TextInput';
 import Button from '../Button/Button';
-import { updateSearchstring } from '../../redux/store';
+
 
 const SearchForm = props => {
     const [searchString, setSearchString] = useState('');
@@ -29,7 +30,6 @@ const SearchForm = props => {
         </form>
     );
   };
-
 
 export default SearchForm;
 

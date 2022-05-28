@@ -1,5 +1,5 @@
-import PageTitle from '../PageTitle/PageTitle';
 import styles from './About.module.scss';
+import PageTitle from '../PageTitle/PageTitle';
 
 const About = () => {
     return (
@@ -8,8 +8,7 @@ const About = () => {
         <p className={styles.subtitle}>
             Lorem ipsum in idipsum
         </p>
-      </div>
-        
+      </div>  
     );
 }
 
