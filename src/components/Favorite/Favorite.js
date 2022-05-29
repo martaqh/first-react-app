@@ -14,7 +14,7 @@ const Favorite = props => {
         <p className={styles.subtitle}>
             Lorem ipsum in idipsum
         </p>
-        {cards.map(card => <Card title={card.title} isFavorite={card.isFavorite} /> )}
+        {cards.map(card => <Card id={card.id} title={card.title} isFavorite={card.isFavorite} /> )}
       </div>
         
     );
