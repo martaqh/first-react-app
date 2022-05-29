@@ -14,7 +14,10 @@ const ButtonFavorite = props => {
         dispatch(toggleCardFavorite(cardId));
     }
     
-    return <button className={clsx(styles.buttonFavorite, props.isFavorite === true && styles.active)} onClick={handleClick}><span className='fa fa-star-o'></span></button>
+    return <button className={clsx(styles.buttonFavorite, props.isFavorite === true && styles.active)}
+                   onClick={handleClick}>
+                <span className='fa fa-star-o'></span>
+            </button>
 }
 
 export default ButtonFavorite
