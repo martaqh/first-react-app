@@ -9,13 +9,16 @@ const Favorite = props => {
   const cards = useSelector(state => getFavoriteCards(state, props.title));
   console.log(cards);
     return (
-      <div className={styles.favorite}>
+      <main className={styles.favorite}>
         <PageTitle>Favorite</PageTitle>
         <p className={styles.subtitle}>
             Lorem ipsum in idipsum
         </p>
-        {cards.map(card => <Card id={card.id} title={card.title} isFavorite={card.isFavorite} /> )}
-      </div>
+        <div className={styles.column}>
+          {cards.map(card => <Card id={card.id} title={card.title} isFavorite={card.isFavorite} /> )}
+        </div>
+        
+      </main>
         
     );
 }
