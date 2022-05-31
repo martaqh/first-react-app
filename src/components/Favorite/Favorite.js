@@ -7,7 +7,7 @@ import Card from '../Card/Card';
 
 const Favorite = props => {
   const cards = useSelector(state => getFavoriteCards(state, props.title));
-  console.log(cards);
+
     return (
       <main className={styles.favorite}>
         <PageTitle>Favorite</PageTitle>

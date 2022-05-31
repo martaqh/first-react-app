@@ -12,13 +12,11 @@ const SearchForm = props => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log('handle submit', e.target);
         dispatch(updateSearchstring(searchString));
     }
 
     const handleChange = e => {
         setSearchString(e.target.value);
-        console.log('handle change')
     }
 
     return (
