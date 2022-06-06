@@ -7,12 +7,12 @@ export const getFilteredCards = ({ cards, searchString }, columnId) => cards
 
 export const getFavoriteCards = ({ cards }) => cards.filter(card => card.isFavorite === true);
 
-export const getCardToBeDeleted = ({ cards }, cardId) => cards.indexOf(card => card.id === cardId)
+//export const getCardToBeDeleted = ({ cards }, cardId) => cards.indexOf(card => card.id === cardId)
 
 
 // action
-
 const createActionName = actionName => `app/cards/${actionName}`;
+
 const ADD_CARD = createActionName('ADD_CARD');
 const TOGGLE_CARD_FAVORITE = createActionName('TOGGLE_CARD_FAVORITE');
 const DELETE_CARD = createActionName('DELETE_CARD');

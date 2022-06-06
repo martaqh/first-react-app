@@ -38,6 +38,10 @@
     font-size: ($base-size * 1.5);
     margin: 0 0 ($base-size * 1.5) 0;
   }
+
+  .no_cards_message {
+    color: red;
+  }
   
   
   @media (max-width: 767px) {
