@@ -1,3 +1,8 @@
+A React.js excercise done as a part of Kodilla Front-end Bootcamp.
+
+A to-do-list enabling to manage lists of items (columns with cards), adding new ones, deleting existing ones or labeling them as favorites.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
